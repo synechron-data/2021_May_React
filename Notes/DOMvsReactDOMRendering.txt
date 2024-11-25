@@ -1,0 +1,15 @@
+document.getElementById("t1").innertHTML = "Hello"
+
+1. Browser have to parses the HTML
+2. It removes the child element of elementId
+3. Updates the DOM with the “New Value”
+4. Re-calculate the CSS for the parent and child
+5. Update the layout i.e. each elements exact co-ordinates on the screen
+6. Traverse the render tree and paint it on the browser display
+
+React Updates
+
+1. Efficient diff algorithm
+2. Batched update operations
+3. Efficient update of sub tree only
+4. Uses observable instead of dirty checking to detect change

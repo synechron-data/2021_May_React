@@ -1,0 +1,37 @@
+Methods & Properties in React Class Component
+
+Mounting Lifecycle Method
+	constructor()
+	static getDerivedStateFromProps()
+	render()
+	componentDidMount()
+
+Updating Lifecycle Method
+	static getDerivedStateFromProps()
+	shouldComponentUpdate()
+	render
+	getSnapshotBeforeUpdate()
+	componentDidUpdate()
+
+Unmounting Lifecycle Method
+	componentWillUnmount()
+
+Error Lifecycle Method
+	static getDerivedStateFromError()
+	componentDidCatch()
+
+Other API's
+	setState()
+	forceUpdate()
+
+Class Properties
+	defaultProps
+	displayName
+	propTypes
+
+Instance Properties
+	props
+	state
+
+
+	
